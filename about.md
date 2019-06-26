@@ -80,6 +80,7 @@ permalink: /about/
 #### Other Interests
 
 - Open Source Software
+	- Visible design
 
 - What can art students and other creatives bring to areas where they aren't
 	usually involved, e.g. engineering and computer science
@@ -96,6 +97,14 @@ permalink: /about/
   - Sonic Pi
 	- Beagle hat from Queens College
 	- [Adafruit Music Maker](https://www.adafruit.com/product/1788)
+
+#### Rants
+
+- Digital Fabrication tools
+
+- LEDs
+
+- AI
 
 ### Contact me
 
