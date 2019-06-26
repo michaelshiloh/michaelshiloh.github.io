@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Michael Shiloh, Associate Professor of Practice of Interactive Media
 permalink: /about/
 ---
 
@@ -76,6 +76,12 @@ permalink: /about/
 #### Conceptual Pieces
 
 - Communication
+
+#### Classes at NYU:
+- Intro to IM
+- Performing Robots
+- Machine Lab
+- Network Everything
 
 #### Other Interests
 
