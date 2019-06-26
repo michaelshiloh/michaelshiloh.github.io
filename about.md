@@ -92,6 +92,11 @@ permalink: /about/
 
 - Improving construction techniques
 
+- Generating experimental sounds using programming e.g. 
+  - Sonic Pi
+	- Beagle hat from Queens College
+	- [Adafruit Music Maker](https://www.adafruit.com/product/1788)
+
 ### Contact me
 
 [michael@michaelshiloh.com](mailto:michael@michaelshiloh.com)
