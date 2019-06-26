@@ -16,7 +16,7 @@ permalink: /about/
 	- Wind River Systems (Real-time embedded operating system)
 	- Etc.
 
-#### Art
+#### Art Background
 
 - As a child, my tinkering was never oriented towards practical devices. I was
 	more interested in experimenting with parts and concepts. 
@@ -25,7 +25,8 @@ permalink: /about/
 	and industrial projects, I would hear about interesting new components and
 	think about what wacky impractical things I could do with them.
 - But I didn't know what to do with this interest.
-- Shortly after college I stumbled into an SRL show. 
+- Shortly after college I stumbled into an SRL show (large scale machine art
+	performance).	
 	![](images/MARKPAULINE17.jpg)
 	I didn't know what it
 	was, but I was changed. I realized that there was a place for my
@@ -37,13 +38,55 @@ permalink: /about/
 	seemingly impractical furniture
 - A few year later (1994 or so) I met someone who worked with SRL, and she
 	told me that I could simply come down to the workshop and start working.
+	I've been working with SRL since, and have worked on some 20 shows around
+	the world with them. 
+- Through SRL I also worked with other groups and individuals, some working in
+	similar areas, and others in quite different areas.
 
 #### Teaching
 
-- Working with SRL put me in contact with artists working with technology 
-	who didn't have much tehcnical background, and I found myself teaching how
-	to use technology. I discovered that I loved teaching (and was told that I
+- One of my friends at SRL taught a
+	[class](http://interfacef11.pbworks.com/w/page/44486076/Interface) at the California College of the
+	Arts on making art using technology. They needed a way to interface
+	sensors and actuators to a computer, so some friends and I formed a company
+	(MakingThings) to build such a thing. 
+- As part of training students to 
+	use this system, I became involved in teaching at CCA
+	and I discovered that I loved teaching (and was told that I
 	wasn't bad at it) and started transitioning to a new career as an educator
+- I taught at CCA, The Crucible, San Francisco Art Institute, San Francisco
+	State University, and at UC Berkeley.
+- I now teach at New York University in Abu Dhabi, where my focus is on
+	physical computing
+
+##### Arduino
+
+- Arduino at Maker Fairs
+- Getting Started with Arduino 3rd Edition
+- Education and Community
+
+### My Work
+
+#### Machine Art
+
+- Rolling Ball
+
+- Meditations on Motion
+
+#### Conceptual Pieces
+
+- Communication
+
+#### Other Interests
+
+- Open Source Software
+
+- What can art students and other creatives bring to areas where they aren't
+	usually involved, e.g. engineering and computer science
+	- Telepresence
+	- Inflatable Robotics
+
+- "Maker" community
 
 ### Contact me
 
