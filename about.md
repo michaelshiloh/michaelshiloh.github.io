@@ -88,6 +88,10 @@ permalink: /about/
 
 - "Maker" community
 
+- Rapid prototyping
+
+- Improving construction techniques
+
 ### Contact me
 
 [michael@michaelshiloh.com](mailto:michael@michaelshiloh.com)
