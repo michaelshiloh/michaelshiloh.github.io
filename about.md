@@ -58,6 +58,7 @@ permalink: /about/
 	State University, and at UC Berkeley.
 - I now teach at New York University in Abu Dhabi, where my focus is on
 	physical computing
+  Associate Professor of Practice of Interactive Media
 
 ##### Arduino
 
@@ -114,6 +115,6 @@ permalink: /about/
 
 ### Contact me
 
-[michael@michaelshiloh.com](mailto:michael@michaelshiloh.com)
-[mshiloh@nyu.edu](mailto:mshiloh@nyu.edu)
-[m@shiloh.io](mailto:m@shiloh.io)
+[michael@michaelshiloh.com](mailto:michael@michaelshiloh.com)  
+[mshiloh@nyu.edu](mailto:mshiloh@nyu.edu)  
+[m@shiloh.io](mailto:m@shiloh.io)  
