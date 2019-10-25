@@ -1,7 +1,7 @@
-# [Michael Shiloh](http://michaelshiloh.com)
+# [Michael Shiloh](http://michaelshiloh.github.io)
 
-[About](http://michaelshiloh.com/about)
+[About](http://michaelshiloh.github.io/about)
 
-[Projects](http://michaelshiloh.com/projects)
+[Projects](http://michaelshiloh.github.io/projects)
 
-[Courses](http://michaelshiloh.com/courses)
+[Courses](http://michaelshiloh.github.io/courses)
