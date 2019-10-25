@@ -12,7 +12,7 @@ layout: simple
 [Courses](http://michaelshiloh.github.io/courses)
 
 <ul>
-	<li><a href="{{ site.baseurl }}/about">About</a></li>
+	<li><a href="{{ site.baseurl }}/about/index.html">About</a></li>
 	<li><a href="{{ site.baseurl }}/projects">Projects</a></li>
 	<li><a href="{{ site.baseurl }}/courses">Courses</a></li>
 </ul>
