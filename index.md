@@ -14,5 +14,5 @@ layout: simple
 <ul>
 	<li><a href="{{ site.baseurl }}/about">About</a></li>
 	<li><a href="{{ site.baseurl }}/projects">Projects</a></li>
-	<li><a href="{{ site.baseurl }}/workshops">Workshops</a></li>
+	<li><a href="{{ site.baseurl }}/courses">Courses</a></li>
 </ul>
