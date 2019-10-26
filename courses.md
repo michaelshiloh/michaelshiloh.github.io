@@ -1,6 +1,5 @@
 ---
 layout: homeAlone
-title: Michael Shiloh, Associate Professor of Practice of Interactive Media
 permalink: /courses/
 ---
 
