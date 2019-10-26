@@ -1,9 +1,7 @@
 ---
 title: Home
-layout: simple
+layout: homeAlone
 ---
-
-# [Michael Shiloh](http://michaelshiloh.github.io)
 
 [About](http://michaelshiloh.github.io/about)
 
