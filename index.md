@@ -4,7 +4,11 @@ layout: homeAlone
 ---
 
 I've been an Associate Professor of Practice of Interactive Media at New York
-University since the fall of 2017. My interests include:
+University since the fall of 2017. Before this I was an Associate Professor 
+at California College of the Arts and a lecturer at 
+University of California, Berkeley
+
+My current research and practice includes:
 
 - Physical computing, including how it is taught, how it is learned, 
 and how the pedagogy can be improved
@@ -16,8 +20,13 @@ behavior, and how we tend to attribute intelligence to this behavior
 	abilities,
 	what behaviors will participants choose to give it?
 
+Prior areas of research include:
 
-with .html
+- Conceptual information art
+- Conceptual furniture
+- Machine art
+
+[More About](http://michaelshiloh.github.io/about.html)
 [More About](http://michaelshiloh.github.io/about.html)
 
 [Projects](http://michaelshiloh.github.io/projects)
