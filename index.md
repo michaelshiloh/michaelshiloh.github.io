@@ -26,9 +26,9 @@ Prior areas of research include:
 - Conceptual furniture
 - Machine art
 
-[More About](http://michaelshiloh.github.io/about.html)
+[More About](http://michaelshiloh.github.io/about)
 
-[More About](http://michaelshiloh.github.io/about.html)
+[More About](http://michaelshiloh.github.io/about)
 
 [Projects](http://michaelshiloh.github.io/projects)
 
