@@ -17,7 +17,8 @@ behavior, and how we tend to attribute intelligence to this behavior
 	what behaviors will participants choose to give it?
 
 
-[More About](http://michaelshiloh.github.io/about)
+with .html
+[More About](http://michaelshiloh.github.io/about.html)
 
 [Projects](http://michaelshiloh.github.io/projects)
 
