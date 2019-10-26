@@ -9,3 +9,5 @@ layout: homeAlone
 
 [Courses](http://michaelshiloh.github.io/courses)
 
+[CV](http://michaelshiloh.github.io/cv.pdf)
+
