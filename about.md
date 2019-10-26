@@ -112,8 +112,3 @@ permalink: /about/
 
 - AI
 
-### Contact me
-
-[michael@michaelshiloh.com](mailto:michael@michaelshiloh.com)  
-[mshiloh@nyu.edu](mailto:mshiloh@nyu.edu)  
-[m@shiloh.io](mailto:m@shiloh.io)  
