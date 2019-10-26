@@ -27,6 +27,7 @@ Prior areas of research include:
 - Machine art
 
 [More About](http://michaelshiloh.github.io/about.html)
+
 [More About](http://michaelshiloh.github.io/about.html)
 
 [Projects](http://michaelshiloh.github.io/projects)
