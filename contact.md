@@ -3,6 +3,4 @@ layout: homeAlone
 permalink: /contact/
 ---
 
-LinkedIn
-Github
-Email
+[Email](mailto:mshiloh@nyu.edu) \| [GitHub](https://github.com/michaelshiloh) \| [LinkedIn](https://www.linkedin.com/in/michaelshiloh)
