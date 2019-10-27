@@ -1,7 +1,3 @@
-# [Michael Shiloh](http://michaelshiloh.github.io)
+This repository uses Jekyll and a bunch of other things to render websites.
 
-[About](http://michaelshiloh.github.io/about)
-
-[Projects](http://michaelshiloh.github.io/projects)
-
-[Courses](http://michaelshiloh.github.io/courses)
+Thanks to [Jack B. Du](https://jackbdu.com/) for showing me how to do this
