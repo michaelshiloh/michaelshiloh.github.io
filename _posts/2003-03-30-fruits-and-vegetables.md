@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Fruits & Vegetables
+title: Desk
 categories: projects
-tags: painting
-description: A digital painting of fruits and vegetables.
+tags: furniture
+description: The desk from my furniture series
 ---
 
-![Fruit & Vegetables]({{ site.baseurl }}/media/projects/fruits-and-vegetables/fruits-and-vegetables.jpg) |
+![Desk]({{ site.baseurl }}/media/projects/furniture/desk_lamp_bench_slides/Scan-120913-0001.jpg) |
 :----------: |
-Created with [Microsoft Paint](https://en.wikipedia.org/wiki/Microsoft_Paint), 519 x 735 px. |
+The first version of my concrete, glass, and steel desk, from my furniture
+series
