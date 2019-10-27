@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div class="posts clearfix">
+  {% for post in site.categories["projects"] %}
+  <div class="filter tile">
+    <a href="{{ site.baseurl }}{{ post.url }}">
+      <img class="thumb" src="{{ site.baseurl }}/media{{ post. url }}thumb.jpg" />
+    </a>
+  </div>
+  {% endfor %}
+</div>
