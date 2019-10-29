@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Desk
+title: Furniture
 categories: projects
-tags: furniture
 description: furniture series
 ---
 
