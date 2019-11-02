@@ -3,7 +3,9 @@ layout: homeAlone
 permalink: /contact/
 ---
 
-[Email](mailto:mshiloh@nyu.edu)   
+[Website](michaelshiloh.github.io)
+
+[Email](mailto:michael@michaelshiloh.com)
 
 [GitHub](https://github.com/michaelshiloh)   
 
