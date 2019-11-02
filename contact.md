@@ -3,7 +3,7 @@ layout: homeAlone
 permalink: /contact/
 ---
 
-[Website](michaelshiloh.github.io)
+[Website](https://michaelshiloh.github.io)
 
 [Email](mailto:michael@michaelshiloh.com)
 
