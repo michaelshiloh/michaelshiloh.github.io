@@ -1,0 +1,15 @@
+---
+layout: simple
+---
+
+<div>
+<a href="about">
+	<img class="thumb" src="/images/MARKPAULINE17.jpg" />
+</a>
+</div>
+
+<div>
+<a href="http://www.google.com">
+	<img class="thumb" src="/images/MARKPAULINE17.jpg" />
+</a>
+</div>
