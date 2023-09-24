@@ -1,13 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+
+
+
+
     <title>A simple styled website - Home</title>
     <link rel="stylesheet" type="text/css" href="styles/main.css">
   </head>
   <body>
     <header>
       <h1>Michael Shiloh</h1>
-      <p>What should I say here?</p>
+      <p>Artist - Engineer - Educator - Weird stuff aficionado</p>
     </header>
     <nav>
       <ul>
@@ -20,14 +45,47 @@
     <main>
       <article>
         <h2>About me</h2>
-				<img src="images/smilingJaffaBackground_320x240.jpg" alt="smiling with
-				Jaffa in the background"
-				width-"300">
+
+<div class="row">
+  <div class="column">
+				<img 
+				src="images/smilingJaffaBackground_320x240.jpg" 
+				alt="smiling with Jaffa in the background"
+				width-"100%">
+  </div>
+  <div class="column">
+				<img 
+				src="images/cuttingUpBarrierGates_320x240.png" 
+				alt="Cutting up an unused barrier gate"
+				width-"100%">
+  </div>
+				<img 
+				src="images/cuttingUpBarrierGates_320x240.png" 
+				alt="Cutting up an unused barrier gate"
+				width-"100%">
+  <div class="column">
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
 				<p>
 				I have a passion for building things, and learning how to build
-				things. I like taking stuff apart and using the bits that I find.
+				things. I like taking stuff apart and using the bits that I find
+				to make new things.
 				I love experimenting with new ideas, new devices, and new techniques.
-				I like teaching students how to make stuff.  </p>
+				I like using parts in ways for which they were not intended.
+				I like setting up situations where people have experiences
+				that they may not have otherwise
+				</p>
 
 				<p>
 				My research interests include creating environments in which people
@@ -36,8 +94,6 @@
 				taking things apart.  
 				</p>
 
-				<img src="images/cuttingUpBarrierGates_320x240.png" 
-					alt="Cutting up an unused barrier gate">
 
 				<p>
 				My practice includes machine art and conceptual furniture.
