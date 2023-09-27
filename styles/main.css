@@ -71,7 +71,7 @@ main {
 
 main article {
   max-width: 100%;
-  width: 800px;
+  /*width: 800px;*/
   margin: 0 auto 2em auto;
   padding-bottom: 0.5em;
   border-bottom: 2px dashed lightgray;
