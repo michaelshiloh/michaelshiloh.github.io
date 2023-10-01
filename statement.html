@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="icon" type="image/x-icon" href="images/favicon.jpg">
+	<meta charset="UTF-8">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	
+	<style>
+		body {
+			margin: 0;
+			font-family: 'Nunito';
+		}
+		
+		.top {
+			padding: 3em;
+			display: grid;
+			grid-gap: 2em;
+			grid-template-columns: repeat(
+					auto-fit, minmax(250px, 1fr));
+
+			.quote {
+				padding: 2em;
+				border-radius: .3em;
+				box-shadow: 10px 10px 30px
+						rgba(0, 0, 0, 0.1);
+				p {
+					margin-top: 0;
+				}
+				span {
+					font-weight: bold;
+					position: relative;
+					margin-left: 15px;
+					&:before {
+						content: '';
+						position: absolute;
+						height: 1px;
+						width: 10px;
+						border-bottom: 1px solid black;
+						top: 10px;
+						left: -15px;
+					}
+				}
+			}
+		}
+	</style>
+
+	<title>Michael Shiloh</title>
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+
+</head>
+
+<body>
+
+ <header>
+	<h1>Michael Shiloh</h1>
+	<p>Artist - Engineer - Educator - Weird stuff aficionado</p>
+</header>
+<nav>
+	<ul>
+		<li><a href="news.html">News</a></li>
+		<li><a href="projects.html">Projects</a></li>
+		<li><a href="statement.html">Statement</a></li>
+		<li><a href="teaching.html">Teaching</a></li>
+		<li><a href="cv.html">CV</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	</ul>
+</nav>
+<main>
+<article>
+<h2>About me</h2>
+
+
+	<div class="top">
+		<div class="quote">
+			<p>
+				I have a passion for building things,
+        taking things apart, and using the bits that I find
+        to make new things.
+        I love experimenting with new ideas, new devices, and new techniques.
+				I like using parts in ways for which they were not intended.
+				I like setting up situations where people have experiences
+				that they may not have otherwise.
+			</p>
+		</div>
+
+		<div class="quote span-2">
+		 <img
+      src="images/cuttingUpBarrierGates_320x240.png"
+      alt="Cutting up an unused barrier gate"
+      width-"100%">
+		</div>
+	</div>
+	<div class="top">
+		<div class="quote">
+			<p>
+				My research interests include
+				how people behave around robots, unusual mechanisms,
+				and surprising uses of technology.
+      </p>
+			<p>
+        My practice includes  participatory art, machine art, experimental
+        sound art, and conceptual furniture.
+			</p>
+		</div>
+
+		<div class="quote span-2">
+        <img
+        src="images/ymcnbd_31Aug2023_640x480.jpg"
+        alt="Your Message Could Not Be Delivered, 31 August 2023"
+        width-"100%">
+		</div>
+
+
+	</div>
+
+</body>
+
+</html>
+
