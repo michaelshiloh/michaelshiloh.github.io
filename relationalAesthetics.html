@@ -1,40 +1,93 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Relational Aesthetics</title>
-    <link rel="stylesheet" type="text/css" href="styles/main.css">
-  </head>
 
-  <body>
-    <header>
-      <h1>Relational Aesthetics and Participatory Art</h1>
+<head>
+  <link rel="icon" type="image/x-icon" href="images/favicon.jpg">
+	<meta charset="UTF-8">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	
+	<style>
+		body {
+			margin: 0;
+			font-family: 'Nunito';
+		}
+		
+		.top {
+			padding: 3em;
+			display: grid;
+			grid-gap: 2em;
+			grid-template-columns: repeat(
+					auto-fit, minmax(250px, 1fr));
 
-      <style>
-        /* html related links show up in purple-ish color */
-        .html a {
-          color: rgb(93, 75, 150);
-        }
-        /* css related links show up in green-ish color */
-        .css a {
-          color: rgb(62, 117, 80);
-        }
-      </style>
-    </header>
+			.quote {
+				.textContainer {
+					position: relative;
+					text-align: center;
+				  font-size: 30px;
+					color: white;
+				}
 
-    <nav>
-      <ul>
-			 <li><a href="index.html">Home</a></li>
-			  <li><a href="news.html">News</a></li>
-				<li><a href="statement.html">Statement</a></li>
-				<li><a href="bio.html">Bio</a></li>
-				<li><a href="teaching.html">Teaching</a></li>
-				<li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+				.textAlignCentered {
+					display: inline-flex; /* keep the background color wrapped tight */
+					padding:5px;background-color:#e650d2;color:#ffffff;
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+				}
 
-    <main>
+				padding: 2em;
+				border-radius: .3em;
+				box-shadow: 10px 10px 30px
+						rgba(0, 0, 0, 0.1);
+				p {
+					margin-top: 0;
+				}
+				span {
+					font-weight: bold;
+					position: relative;
+					margin-left: 15px;
+					&:before {
+						content: '';
+						position: absolute;
+						height: 1px;
+						width: 10px;
+						border-bottom: 1px solid black;
+						top: 10px;
+						left: -15px;
+					}
+				}
+			}
+		}
+	</style>
 
-      <article class="html">
+	<title>Michael Shiloh</title>
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+
+</head>
+
+<body>
+
+ <header>
+	<h1>Michael Shiloh</h1>
+	<p>Artist - Engineer - Educator - Weird stuff aficionado</p>
+</header>
+<nav>
+	<ul>
+		<li><a href="news.html">News</a></li>
+		<li><a href="statement.html">Statement</a></li>
+		<li><a href="bio.html">Bio</a></li>
+		<li><a href="teaching.html">Teaching</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	</ul>
+</nav>
+<main>
+<article>
+
+	<div class="top">
+		<div class="quote">
 				<h2>
 					Relational Aesthetics and Participatory Art
 				</h2>
@@ -55,10 +108,10 @@
 					that they don't know how to do this, but after awhile, with very
 					little, or sometimes no prompting, will timidly pick up the tools
 					and get started. Once they start, they often stay for much longer
-					than they expected. Participants describe getting completely
+					than they expected. They describe getting completely
 					absorbed and becoming focused on the task at hand that they lose
-					track of time.  Participants who don't know each other find
-					themselves talking with and collaborating with other participants.
+					track of time.  Strangers find
+					themselves talking with and collaborating with each other.
 					Taking things apart is a puzzle of sorts: trying to find the right
 					order of fasteners to be removed to free a part. Participants become
 					intrigued by the parts revealed, wondering what they are and what
@@ -67,59 +120,105 @@
 					qualities of the work.  
 				</p>
 
+				<p>
+				  The use of discarded machinery is a subtle critique of our appetite
+					for increasingly sophisticated technologies at low prices.
+					Manufacturing costs are reduced by removing features allowing
+					maintenance and repair, resulting in a high rate of replacement.
+					As the vehicle for creating my artwork, the discarded machinery is
+					proven not useless.
+				</p>
 
+				<p>
+				"... Bourriaud identifies
+				political significance in these relationships as models of interaction
+				that critically reflect upon wider society. Bourriaud argues that by
+				setting up real interactive situations in the gallery, relational
+				works of art do not ‘represent utopias’ but actualise them, creating
+				positive ‘life possibilities’ as ‘concrete spaces’ rather than merely
+				fictional ones." (Mark Windsor, Art of Interaction: A Theoretical
+				Examination of Carsten Höller’s Test Site,
+				https://www.tate.org.uk/research/tate-papers/15/art-of-interaction-a-theoretical-examination-of-carsten-holler-test-site)
+				</p>
 
-
-				The printers, tools, and participants constitute a system, as used in
-				the term system art. In such a system, participants (you) consume
-				resources (the printers) and create new forms (sculptures, be they
-				static or kinetic). Similarly, the invitation to include your own
-				correspondences, and your experience in doing so, blurs the line
-				between curator and viewer, questioning who gets to decide how our
-				lives and relationships are documented. The individual and communal
-				experiences of the participants, and the process that takes place
-				during the duration of the installation, are the art, more than the
-				resultant sculptures. The pairing of this system art with a gathering
-				of correspondences is an invitation to consider how we communicate
-				with one another, how this changes as technology develops, and how
-				these changes impact our relationships. This installation also creates
-				a social interstice, as described by Indrani Saha: “Drawn on Marxian
-				language and repurposed by Nicolas Bourriaud in his text, Relational
+				<p>
+				“Drawn on Marxian
+				language and repurposed by Nicolas Bourriaud in his text Relational
 				Aesthetics, the term social interstices refers to a space that
 				facilitates human social interaction. Marx refers to the term
 				interstice as a pocket of trading activity that stands outside the
 				capitalist framework. Similarly, social interstice as Bourriaud uses
 				it references a similar defiance of the dominant system. In this case,
 				social interstices are those spaces of free interaction that provide
-				opportunities for social engagement outside of the norm.” In this
-				social interstice we question replacement vs. repair or reuse, and who
-				has agency to repair, to reuse, to archive, or to create art.
-
-
-How is permission given to open an appliance or to create art? Exclusion comes
-from others as well as ourselves, as we identify or are identified in
-different ways (“I’m not good at math”, “Girls don’t build”, “ you’re not a
-real artist”). What identities do we adopt? What identities are thrust upon
-us?
-
-Why take things apart? Taking things apart is fun, it’s messy, it’s a way of
-interacting with devices in ways we usually don’t. It engages a part of our
-brain and body in ways that we usually don’t. Appliances are usually treated
-as mysterious “black boxes”, the inner workings of which are a secret, known
-only to a select cabal of initiates. Did we consciously choose to be ignorant?
-Taking things apart can give us insight into what’s inside and how they are
-held together.  —------
+				opportunities for social engagement outside of the norm.” 
+				(Social Interstices, Indrani Saha,
+				https://mjsymuleski.com/artofthemooc/social-interstices/)
+				</p>
 
 				</p>
-        <img src="something else maybe">
+				How is permission given to open an appliance or to create art?
+				Exclusion is implicit in how we identify ourselves or are identified
+				by others ("I'm not good with tools", “I’m not good at math”, “Girls
+				don’t build”, “you’re not a real artist”, etc.). In the 
+				social interstice 
+				and
+				actualized utopia 
+				of this work, visitors may challenge these identities.
+				</p>
+		</div> 
 
-      </article>
+	<div class="top">
 
+		<div class="quote">
+		- I set up discarded electrical and electronic devices on tables, along with
+tools. I also strung up wires along the walls carrying low voltages.
+Visitors disassembled the devices, removed components (e.g. motors, LEDs,
+speakers), and connected them to the wires to activate them. I and my
+volunteers moved between participants, assisting in identifying usable
+components and hooking them up.
+- "Robots on the March!" Artists' Television Access, San Francisco, 2005
 
+		</div> 
 
-    </main>
-    <footer>
-      <p>Michael Shiloh</p>
-    </footer>
-  </body>
+		<div class="quote span-2">
+					<img
+					src="images/desk_640x480.jpg"
+					alt="image from this show, which unfortuantely i can't find"
+					width-"100%">
+		</div> 
+
+	</div> 
+
+	<div class="top">
+
+		<div class="quote">
+			<div class="textContainer">
+					<img
+					src="images/robonica_640x480.jpg"
+					alt="Robonica"
+					width-"100%">
+					<div class="textAlignCentered">
+						Robots
+					</div>
+				</a>
+			</div>
+		</div>
+
+		<div class="quote span-2">
+			<div class="textContainer">
+				 <img
+					src="images/ballCellspaceSchip_640x480.jpg"
+					alt="Rolling Ball"
+					width-"100%">
+					<div class="textAlignCentered">
+						Machine Art
+					</div>
+				</a>
+			</div>
+		</div> 
+
+	</div>
+
+</body>
+
 </html>
