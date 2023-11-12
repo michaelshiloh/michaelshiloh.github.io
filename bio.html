@@ -1,260 +1,180 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>CV</title>
-    <link rel="stylesheet" type="text/css" href="styles/main.css">
-  </head>
 
-  <body>
-    <header>
-      <h1>My CV</h1>
+	<head>
+		<link rel="icon" type="image/x-icon" href="images/favicon.jpg">
+		<meta charset="UTF-8">
+		<meta name="viewport" content=
+			"width=device-width, initial-scale=1.0">
+		
+		<style>
+			body {
+				margin: 0;
+				font-family: 'Nunito';
+			}
 
-      <style>
-        /* html related links show up in purple-ish color */
-        .html a {
-          color: rgb(93, 75, 150);
-        }
-        /* css related links show up in green-ish color */
-        .css a {
-          color: rgb(62, 117, 80);
-        }
-      </style>
-    </header>
-    <nav>
-      <ul>
-			 <li><a href="index.html">Home</a></li>
+			.introduction{
+				display: flex;
+				justify-content: center;
+				list-style-type: none;
+				max-width: 800px;
+				padding: 1em;
+				margin: 0 auto;
+				font-size: 20px;
+				color: black;
+			}
+			
+			.top {
+				padding: 3em;
+				display: grid;
+				grid-gap: 2em;
+				grid-template-columns: repeat(
+						auto-fit, minmax(250px, 1fr));
+
+				.quote {
+					.textParagraph{
+						position: relative;
+						text-align: center;
+						font-size: 20px;
+						color: black;
+					}
+
+					.textContainer {
+						position: relative;
+						text-align: center;
+						font-size: 30px;
+						color: white;
+					}
+
+					.textAlignCentered {
+						display: inline-flex; /* keep the background color wrapped tight */
+						padding:5px;background-color:#e650d2;color:#ffffff;
+						position: absolute;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%, -50%);
+					}
+
+					padding: 2em;
+					border-radius: .3em;
+					box-shadow: 10px 10px 30px
+							rgba(0, 0, 0, 0.1);
+					p {
+						margin-top: 0;
+					}
+					span {
+						font-weight: bold;
+						position: relative;
+						margin-left: 15px;
+						&:before {
+							content: '';
+							position: absolute;
+							height: 1px;
+							width: 10px;
+							border-bottom: 1px solid black;
+							top: 10px;
+							left: -15px;
+						}
+					}
+				}
+			}
+		</style>
+
+		<title>Michael Shiloh</title>
+		<link rel="stylesheet" type="text/css" href="styles/main.css">
+
+	</head>
+
+	<body>
+
+		<header>
+			<a href="index.html">
+				<h1>Michael Shiloh</h1>
+				<p>Artist - Engineer - Educator - Weird stuff aficionado</p>
+			</a>
+		</header>
+
+		<nav>
+			<ul>
 				<li><a href="news.html">News</a></li>
 				<li><a href="statement.html">Statement</a></li>
 				<li><a href="bio.html">Bio</a></li>
 				<li><a href="teaching.html">Teaching</a></li>
 				<li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-    <main>
+			</ul>
+		</nav>
 
-      <article class="html">
-				<h2>
-					CV, "bio", and artist statement
-				</h2>
-				<h3>
-					CV
-				</h3>
-				<p>
-Someday I'll figure out how to export my CV as an HTML file. But not today.
-				</p>
-				<h3>
-					Bio
-				</h3>
-				<p>
-Michael Shiloh (Israel, USA) is an artist, engineer, and educator who creates
-electro-mechanical and conceptual pieces that often require audience
-participation, such as constructing, programming, or making decisions
-regarding robot rights and responsibilities.  Michael likes to incorporate
-discarded or salvaged mechanisms in his projects.  Michael has exhibited,
-spoken, or taught at the Exploratorium (San Francisco), Imperial College
-(London), MIT (Boston), Bloomfield Science Museum (Jerusalem), TsingHua
-University (Beijing), Paper Crane Labs (Bangalore), The Project Space (Abu
-Dhabi, many galleries in San Francisco, and at Maker Faires in San Francisco,
-New York, Jerusalem, Shenzhen and Chengdu (China) and many conferences
-worldwide.  Michael collaborates with machine performance group Survival
-Research Labs and with them has performed across the USA as well as in Tokyo
-and Amsterdam.  Michael is currently a professor of Interactive Media at New
-York University Abu Dhabi, where he teaches students how to work with
-electronics, programming, and physical materials to create artwork.  Michael
-is the co-author, along with Massimo Banzi, of the third and fourth editions
-of "Getting Started with Arduino" 
+		<main>
+			<article>
 
-</p> 
+						<div class="introduction">
+							<h2>
+								Someday I'll figure out how to export my CV as an HTML file.
+								Meanwhile, I hope this suffices:
+							</h2>
+						</div>
+						<div class="introduction">
+							<h3>
+								Bio
+							</h3>
+						</div>
+						<div class="introduction">
+							<p>
 
-<h3> Artist Statement </h3> 
+								Michael Shiloh (Israel, USA) is an artist, engineer, and
+								educator who creates electro-mechanical and conceptual pieces
+								that often require audience participation, such as
+								constructing, programming, or making decisions regarding robot
+								rights and responsibilities.  Michael likes to incorporate
+								discarded or salvaged mechanisms in his projects.  Michael has
+								exhibited, spoken, or taught at the Exploratorium (San
+								Francisco), Imperial College (London), MIT (Boston),
+								Bloomfield Science Museum (Jerusalem), TsingHua University
+								(Beijing), Paper Crane Labs (Bangalore), The Project Space
+								(Abu Dhabi, many galleries in San Francisco, and at Maker
+								Faires in San Francisco, New York, Jerusalem, Shenzhen and
+								Chengdu (China) and many conferences worldwide.  Michael
+								collaborates with machine performance group Survival Research
+								Labs and with them has performed across the USA as well as in
+								Tokyo and Amsterdam.  Michael is currently a professor of
+								Interactive Media at New York University Abu Dhabi, where he
+								teaches students how to work with electronics, programming,
+								and physical materials to create artwork.  Michael is the
+								co-author, along with Massimo Banzi, of the third and fourth
+								editions of "Getting Started with Arduino"
 
-<h4> Short form </h4> 
+							</p>
+						</div>
+						<div class="introduction">
+							<h3>
+								Artist Statement
+							</h3>
+						</div>
+						<div class="introduction">
+							<h4> Short form </h4>
+						</div>
+						<div class="introduction">
+							<p>
+								Michael creates situations in which participants are
+								encouraged to explores their relationship to technology by
+								becoming part of the artmaking process. Michael uses
+								deconstructed familiar objects and materials, and simple
+								construction techniques, encouraging an "I could make that"
+								attitude.
+							</p>
+						</div>
+						<div class="introduction">
+							<p> Read my full artist statement 
+								<a href="artistStatement.html"> here 
+								</a> 
+							</p> 
+						</div>
+					</div> 
 
-<p> Michael creates situations in which participants are encouraged
-to explores their relationship to technology by becoming part of the artmaking
-process. Michael uses deconstructed familiar objects and materials, and simple
-construction techniques, encouraging an "I could make that" attitude.  
+	<!-- and this ends the line  --> 
+				</div>
 
-</p>
-
-<h4> Long form </h4> 
-
-<h4> My art follows these main themes: </h4> 
-
-<p> 1. I'm
-disturbed by exclusionary attitudes, such as might be perceived regarding math
-or computer programming ("you must be this smart to understand this"). I like
-to set up situations which allow/encourage/force visitors to participate in
-the creation of the artwork. I consider this a form of Relational Aesthetics,
-in the sense that I act more as a facilitator than a maker, and I regard the
-art both as the constructed result and as the information exchanged between
-the artist and the viewers, and between the viewers. I consider this work
-provocative in that it allows unrelated individuals to participate in a common
-feeling or event they might not otherwise experience collectively.  
-</p>
-
-<h5>
-Examples:
-</h5>
-<p>
-
-- I set up discarded electrical and electronic devices on tables, along with
-tools. I also strung up wires along the walls carrying low voltages.
-Visitors disassembled the devices, removed components (e.g. motors, LEDs,
-speakers), and connected them to the wires to activate them. I and my
-volunteers moved between participants, assisting in identifying usable
-components and hooking them up.
-- "Robots on the March!" Artists' Television Access, San Francisco, 2005
-</p>
-<p>
-
-- I made very simple robots and brought a pair of computers to be used to
-program them. The unprogrammed robots had no "personality". Visitors sat at
-the computers and programmed the robots to give them a personality. I and my
-assistants helped explain how to do this, but left the choice of personality
-up to the participants. The robots then ran around the gallery until another
-visitor picked a robot and changed its personality.
-- “Automatic: Robotic Art”, Lowerdeck Gallery, San Francisco, 2009
-</p>
-<p>
-
-- From 2006 to 2008 I organized and ran a giant workshop at the Bay Area Maker
-Faire, in which we gathered about 6 tons of discarded electronic,
-mechanical, and scrap material, provided tools and consumables such as wire
-and batteries, and allowed visitors to take things apart and build whatever
-they wanted. While some were highly skilled, the ones that interested me the
-most were families who started by identifying the one who would make while
-the rest watched. What happened is that the "watchers" soon got involved as
-well. This fascinated me because they had overcome their self-identification
-as a non-maker. While I didn't situate this as an art project, this clearly
-is a form of Relational Aesthetics.
-</p>
-<h5>
-2. Furniture series:
-</h5>
-<p>
-I made a series of furniture from concrete, scrap wood, scrap metal, and
-broken glass. The furniture was designed to provoke reactions of fear or
-disgust, but in fact was safe and functional. This was an early project
-(1990s) and I've not made any since, perhaps because I've not been inspired by
-the proper scrap metal or broken glass.
-</p>
-
-<h5>
-3. Speculative Robotics:
-</h5>
-<p>
-This series once again challenges exclusionary assumptions, this time
-specifically addressing the assumption that robotics research can only be
-performed by highly trained engineers, in well equipped labs, using very
-expensive and complex equipment and components. My robots are designed to be
-non-precious, encouraging visitors to modify them, in some cases mechanically,
-in others programmatically.
-</p>
-
-<h5>
-Examples:
-</h5>
-<p>
-
-- Telepresence Robot (Robonica): A very simple mobile platform, a little less
-than human height, with a camera, screen, microphone, and loudspeaker,
-running custom video conferencing software. The software allows a remove
-viewer to "drive" the robot around, seeing what the robot sees and hearing
-what the robot hears, while being projected onto the screen and loud speaker
-of the robot. In this way the remote viewer is "projected" into a remote
-physical space, allowing interaction with people there. The purpose of this
-project is not to develop a telepresence robot, but to encourage participant
-and bystanders to make additions or modifications to the robot, to see what
-ideas non-roboticists might come up with. The robot is currently broken, but
-the goal was to let make it available to anyone on campus to "drive" or
-modify.
-</p>
-<p>
-
-- Robot with No Personality 2 (Man or Machine): Building on the "Robots With
-No Personality" project from 2009, this is a human sized robot that has the
-ability to express itself in very simple ways: changing the shape of its
-mouth and eyes, moving its ears, moving itself, and speaking. The robot
-approaches visitors and engages in very simple conversations.  This robot is
-paired with a "Personality Creation Station" where other visitors select how
-the robot should respond to various situations. Of interest is what sort of
-choices visitors make in choosing the robot's responses, and in other
-visitors' reactions to the robot's behaviour. This robot is under
-development and needs quite a bit of work.
-</p>
-<p>
-
-<h5>
-4. Machine Art: 
-</h5>
-<p>
-For almost 4 decades I've worked with the machine performance
-group Survival Research Labs, building machines and putting on performances
-with them. Each machine is very large and complex and is a collaborative
-effort involving many participants.
-</p>
-<p>
-
-<h5>
-5. Sound Art: 
-</h5>
-<p>
-Combining my interest in experimental music and mechanisms, I
-have made a series of sound making machines. I'm interested in making sound in
-as unconventional way as possible, so I avoid simple wind, percussion, and
-string devices and try to make sound in other ways, such as rolling scrap
-metal in a large metal cylinder or bending plastic that creaks when bent.
-- Electrofest, Abu Dhabi, 2022
-</p>
-<h5>
-Notes:
-</h5>
-<p>
-
-- Movement: I like things that move, I like to use motors
-</p>
-<p>
-
-- Surprising, humorous, delightful, or frightening: I like setting up
-	situations in which assumptions are broken
-</p>
-<p>
-- Discarded, surplus, and recycled materials: While the environmental impact
-	to this is obvious, my reasons are aesthetic. I am drawn to items that
-	others consider worthless. I also derive great pleasure from reusing
-	discarded materials.
-</p>
-<p>
-- Audience participation, audience generated
-</p>
-<p>
-- Crossover between Relational Aesthetics and Education: much of my
-	interactive work has an educational element, sometimes as a provocation to
-	try something new, sometimes as a trick to get the visitor to do something
-	that they thought they couldn't. I'm also a full-time professor. These two
-	overlap in ways that sometimes makes it even more difficult to propose
-	Relational Aesthetics as an art form
-</p>
-<p>
-
-- Non-precious construction techniques, encouraging viewers to think "I could
-	make that". Related to the theme of education.
-</p>
-<p>
-	
-- DIY culture, identification (self and by others), inclusion and exclusion
-</p>
-<p>
-
-- Sharing knowledge, open source, exposing the inner workings
-</p>
-      </article>
-
-    </main>
-    <footer>
-      <p>Michael Shiloh</p>
-    </footer>
-  </body>
+			</article>
+		</main>
+	</body>
 </html>
