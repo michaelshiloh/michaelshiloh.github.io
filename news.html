@@ -1,60 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Teaching</title>
-    <link rel="stylesheet" type="text/css" href="styles/main.css">
-  </head>
 
-  <body>
-    <header>
-      <h1>My classes at New York university Abu Dhabi</h1>
+	<head>
+		<link rel="icon" type="image/x-icon" href="images/favicon.jpg">
+		<meta charset="UTF-8">
+		<meta name="viewport" content=
+			"width=device-width, initial-scale=1.0">
+		
+		<style>
+			body {
+				margin: 0;
+				font-family: 'Nunito';
+			}
 
-      <style>
-        /* html related links show up in purple-ish color */
-        .html a {
-          color: rgb(93, 75, 150);
-        }
-        /* css related links show up in green-ish color */
-        .css a {
-          color: rgb(62, 117, 80);
-        }
-      </style>
-    </header>
+			.introduction{
+				display: flex;
+				justify-content: center;
+				list-style-type: none;
+				max-width: 800px;
+				padding: 1em;
+				margin: 0 auto;
+				font-size: 20px;
+				color: black;
+			}
+			
+			.top {
+				padding: 3em;
+				display: grid;
+				grid-gap: 2em;
+				grid-template-columns: repeat(
+						auto-fit, minmax(250px, 1fr));
 
-    <nav>
-      <ul>
-			 <li><a href="index.html">Home</a></li>
-			  <li><a href="news.html">News</a></li>
+				.quote {
+					.textParagraph{
+						position: relative;
+						text-align: center;
+						font-size: 20px;
+						color: black;
+					}
+
+					.textContainer {
+						position: relative;
+						text-align: center;
+						font-size: 30px;
+						color: white;
+					}
+
+					.textAlignCentered {
+						display: inline-flex; /* keep the background color wrapped tight */
+						padding:5px;background-color:#e650d2;color:#ffffff;
+						position: absolute;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%, -50%);
+					}
+
+					padding: 2em;
+					border-radius: .3em;
+					box-shadow: 10px 10px 30px
+							rgba(0, 0, 0, 0.1);
+					p {
+						margin-top: 0;
+					}
+					span {
+						font-weight: bold;
+						position: relative;
+						margin-left: 15px;
+						&:before {
+							content: '';
+							position: absolute;
+							height: 1px;
+							width: 10px;
+							border-bottom: 1px solid black;
+							top: 10px;
+							left: -15px;
+						}
+					}
+				}
+			}
+		</style>
+
+		<title>Michael Shiloh</title>
+		<link rel="stylesheet" type="text/css" href="styles/main.css">
+
+	</head>
+
+	<body>
+
+		<header>
+			<a href="index.html">
+				<h1>Michael Shiloh</h1>
+				<p>Artist - Engineer - Educator - Weird stuff aficionado</p>
+			</a>
+		</header>
+
+		<nav>
+			<ul>
+				<li><a href="news.html">News</a></li>
 				<li><a href="statement.html">Statement</a></li>
 				<li><a href="bio.html">Bio</a></li>
 				<li><a href="teaching.html">Teaching</a></li>
 				<li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+			</ul>
+		</nav>
 
-    <main>
+		<main>
+			<article>
 
-      <article class="html">
-				<h2>
-					News
-				</h2>
-				<p>
-				<p>
-					I, along with Bridin Cotton, currently have a show, 
-					<a
-					href="https://www.nyuad-artgallery.org/en_US/arts-center-project-space/your-message-could-not-be-delivered/">
-					Your Message Could Not Be Delivered</a>,
-					in the Project Space of the Art Gallery at New York University
-					Abu Dhabi. The show closes on October 5 with a grand finale from
-					5-8pm. 
-				</p>
-        <img src="images/motorsAtymcnbd_640x480.jpg">
+				<div class="introduction">
+					<h2>
+						What I've been up to lately
+					</h2>
+				</div>
 
-      </article>
+			<!-- each line starts with top -->
+				<div class="top">
 
-    </main>
-    <footer>
-      <p>Michael Shiloh</p>
-    </footer>
-  </body>
+			<!-- column 1 -->
+					<div class="quote">
+						<div class="textContainer">
+							<a href="https://www.nyuad-artgallery.org/en_US/arts-center-project-space/your-message-could-not-be-delivered/">
+								<img
+									src="images/motorsAtymcnbd_640x480.jpg">
+									alt="Your Message Could Not Be Delivered">
+									width-"100%">
+								<div class="textAlignCentered">
+										NYUAD Project Space, August 31 – October 5, 2023
+								</div>
+							</a>
+						</div>
+					</div> 
+
+				<!-- column 2 -->
+					<div class="quote span-2">
+						<div class="textContainer">
+							<img
+								src="images/pclResidency/automata_640x480.jpg"
+								alt="Building Automata"
+								width-"100%">
+							<div class="textAlignCentered">
+								Residency at Paper Crane Labs, October 2022
+							</div>
+						</div>
+					</div> 
+
+				<!-- end of line -->
+				</div>
+
+			</article>
+		</main>
+	</body>
 </html>
+
