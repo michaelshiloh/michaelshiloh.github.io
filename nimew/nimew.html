@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<link rel="icon" type="image/x-icon" href="images/favicon.jpg">
+		<meta charset="UTF-8">
+		<meta name="viewport" content=
+			"width=device-width, initial-scale=1.0">
+		
+		<style>
+			body {
+				margin: 0;
+				font-family: 'Nunito';
+			}
+			
+			.top {
+				padding: 3em;
+				display: grid;
+				grid-gap: 2em;
+				grid-template-columns: repeat(
+						auto-fit, minmax(250px, 1fr));
+
+				.quote {
+					.textContainer {
+						position: relative;
+						text-align: center;
+						font-size: 30px;
+						color: white;
+					}
+
+					.textAlignCentered {
+						display: inline-flex; /* keep the background color wrapped tight */
+						padding:5px;background-color:#e650d2;color:#ffffff;
+						position: absolute;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%, -50%);
+					}
+
+					padding: 2em;
+					border-radius: .3em;
+					box-shadow: 10px 10px 30px
+							rgba(0, 0, 0, 0.1);
+					p {
+						margin-top: 0;
+					}
+					span {
+						font-weight: bold;
+						position: relative;
+						margin-left: 15px;
+						&:before {
+							content: '';
+							position: absolute;
+							height: 1px;
+							width: 10px;
+							border-bottom: 1px solid black;
+							top: 10px;
+							left: -15px;
+						}
+					}
+				}
+			}
+		</style>
+
+		<title>Michael Shiloh</title>
+		<link rel="stylesheet" type="text/css" href="styles/main.css">
+
+	</head>
+
+	<body>
+
+		<header>
+			<a href="index.html">
+				<h1>Michael Shiloh</h1>
+				<p>Artist - Engineer - Educator - Weird stuff aficionado</p>
+			</a>
+		</header>
+
+		<nav>
+			<ul>
+				<li><a href="news.html">News</a></li>
+				<li><a href="index.html">Projects</a></li>
+				<li><a href="artistStatement.html">Statement</a></li>
+				<li><a href="bio.html">Bio</a></li>
+				<li><a href="teaching.html">Teaching</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+
+		<main>
+			<article>
+
+				<div class="introduction">
+					<h2> New Interface for Musical Expression on a piece of wood </h2>
+				</div>
+
+				<div class="introduction">
+					<p>
+						This isn't really a new interface - the original circuit was
+						first published by Forrest M. Mims III in 1980 and called by him
+						the "Stepped Tone Generator". It is now commonly known as the Atari
+						Punk Console because it sounds like the early video games of the
+						80s and has developed a bit of a cult following.
+					</p>
+					<p>
+						In the original design the device was controlled by two
+						potentiometers. A common modification is to replace these with two
+						photoresistors, allowing it to be controlled by blocking the light
+						to these sensors, giving it a bit of a Theremin-like feel. Flashing
+						lights can add an interesting effect, and there are endless ways to
+						build and modify this device.
+					</p>
+					<p>
+						In this workshop we will construct the circuit on a piece of wood,
+						using small nails as the tie points and using point-to-point
+						wiring. (Using a piece of wood on which to build a circuit is what
+						gives as the term breadboarding.). The wood can be of any shape,
+						and the circuit can be laid out in almost any way, encouraging a
+						great deal of creativity.
+					</p>
+				</div>
+
+<!-- start Parts -->
+					<!-- each line starts with top -->
+					<div class="top">
+
+						<!-- column 1 -->
+						<div class="quote">
+							<div class="textContainer">
+
+								<img src="images/performingRobots2022ClassPicture_640x320.jpg"
+									alt="Performing Robots 2022 Class Picture">
+
+							</div>
+						<!-- end of column 1 -->
+						</div>
+
+
+						<!-- column 2 -->
+						<div class="quote span-2">
+							<div class="introduction">
+								<h2>Parts</h2>
+									<p>
+										556 timer IC, resistors, capacitors, battery, speaker,
+										battery clip,
+										photoresistors, pieces of wood, etc.
+									</p>
+							</div>
+
+						<!-- end of column 2 -->
+						</div>
+
+					<!-- end of the line  -->
+					</div>
+<!-- end of parts -->
+
+<!-- start tools -->
+
+					<!-- each line starts with top -->
+					<div class="top">
+
+						<!-- column 1 -->
+						<div class="quote">
+							<div class="textContainer">
+
+								<img src="images/zhekiRubeGoldberkMachine_640x320.jpg" 
+									alt="Image for Machine Lab">
+
+							</div>
+						<!-- end of column 1 -->
+						</div>
+
+
+						<!-- column 2 -->
+						<div class="quote span-2">
+							<div class="introduction">
+								<h2>Tools</h2>
+								<p>
+									hammer, soldering iron, wire stripper, needle nose pliers
+							</p>
+						</div>
+
+					<!-- end of column 2 -->
+					</div>
+
+				<!-- end of the line  -->
+				</div>
+
+<!-- end of tools -->
+
+			</article>
+		</main>
+	</body>
+</html>
+
